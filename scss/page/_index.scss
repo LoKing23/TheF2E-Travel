@@ -1,0 +1,14 @@
+h1{
+  color: red;
+  @include md{
+    color: blue;
+  }
+  @include lg{
+    color: green;
+  }
+  @mixin  md{
+    @media screen and (min-width: 768px){
+    / 
+    }
+  };
+}
