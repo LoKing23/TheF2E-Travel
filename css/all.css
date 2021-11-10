@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,23 +15,28 @@ img {
   height: auto;
 }
 
-:root {
-  --primary: red;
-  --secondart: blue;
+ol, ul {
+  list-style: none;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
 }
 
 h1 {
-  color: red;
+  color: #FF1D6C;
 }
 
 @media screen and (min-width: 768px) {
   h1 {
-    color: blue;
+    color: #FFB72C;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   h1 {
-    color: green;
+    color: #007350;
   }
 }

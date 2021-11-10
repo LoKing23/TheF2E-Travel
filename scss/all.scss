@@ -4,10 +4,12 @@
 @import 'base/base';
 
 //helper
-@import 'mixin';
+@import 'helper/mixin';
+@import 'helper/font-family';
 
 //layout
 @import 'layout/header';
+@import 'layout/footer';
 
 //page
 @import 'page/index';

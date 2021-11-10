@@ -27,4 +27,4 @@ function getAPI(url){
     console.log(error);
   }); 
 }
-export {getAuthorizationHeader}
+export {getAuthorizationHeader, getAPI}
