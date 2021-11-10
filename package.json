@@ -1,0 +1,28 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "The F2E旅遊主題",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoKing23/TheF2E-Travel.git"
+  },
+  "keywords": [
+    "The",
+    "F2E",
+    "旅遊"
+  ],
+  "author": "LoKing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoKing23/TheF2E-Travel/issues"
+  },
+  "homepage": "https://github.com/LoKing23/TheF2E-Travel#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "jssha": "^3.2.0"
+  }
+}
